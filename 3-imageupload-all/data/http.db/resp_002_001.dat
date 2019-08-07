@@ -1,0 +1,60 @@
+.tab{font-size:12px;border-top:1px solid #78bcea;border-left:1px solid #78bcea;}
+.tab th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea;}
+.tab td{font-size:12px;height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed;}
+
+.tablist3{font-size:12px;border-top:1px solid #78bcea;border-left:1px solid #78bcea;}
+.tablist3 th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea;}
+.tablist3 td{font-size:12px;height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed;}
+
+.tablist4{font-size:12px;border-top:1px solid #78bcea;border-left:1px solid #78bcea;float: left;}
+.tablist4 th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea;}
+.tablist4 td{font-size:12px;height:22px;text-align:left;background:url('../images/panel_title.png');padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed; background:url('../images/panel_title.png');}
+
+
+.tablist5{font-size:12px;border-top:1px solid #78bcea;border-left:1px solid #78bcea;}
+.tablist5 th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:left;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea;}
+.tablist5 td{font-size:12px;height:22px;text-align:left;background:url('../images/panel_title.png');padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed; background:url('../images/panel_title.png');}
+.tab2{font-size:12px;border-left:1px solid #78bcea;}
+
+.tablist6{font-size:12px;border-top:1px solid #78bcea;border-left:1px solid #78bcea;float: center;}
+.tablist6 th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:center;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea;}
+.tablist6 td{font-size:12px;height:22px;text-align:center;background:url('../images/panel_title.png');padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed; background:url('../images/panel_title.png');}
+
+.tab2 th{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:22px;text-align:left;padding:2px 5px;}
+.tab2 td{font-size:12px;height:22px;text-align:left;background:#fff;padding:2px 5px;border-right:1px solid #78bcea;border-left:1px solid #FFF;border-bottom:1px solid #78bcea; table-layout:fixed; background:#fff;}
+
+a{color:#2d7cca;}
+
+.titleBack{font-size:12px; border-bottom:2px solid #78bcea; text-align: left; width:100%;line-height:21px;margin:0; padding:0; }
+.div_content1{padding:5px 0px 25px 0px;border:1px solid #d5dde0; background:#fff; font-size:12px; border-left:1px solid #d5dde0;}
+.input_need{background-color: #FFFC9D;border: #466A8C 1px inset;}
+.aa{font-size:12px;color:#2d7cca;background:url('../images/panel_title.png');height:100px;text-align:left;padding:2px 5px;}
+.aa font{font-size:15px;color:#2d7cca;font-weight:bold;}
+.aa select{font-size:12px;color:#000000;}
+.specil{background-color:#85BFDD;cursor:pointer;}
+#contain{position:relative;text-align:left;}
+
+.dtreecob {  
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  
+    font-size: 11px;  
+    color: #666;  
+    white-space: nowrap;  
+    display:none;  
+    border:1px solid #5CACEE;     
+    position: absolute;   
+    z-index: 9999;  
+    background-color:white;  
+    width:200px;  
+}  
+.dBottom{  
+    background-color:#F0F0F0;   
+    margin-bottom:0px;   
+    text-align:right;   
+    height:23px;  
+    line-height:23px;     
+}  
+.dBottom a{  
+    margin-right:5px;  
+    color:black;  
+    text-decoration: none;    
+}  

@@ -1,0 +1,348 @@
+2000
+
+
+
+
+<html>
+<head>
+<title>影像扫描</title>
+<meta http-equiv="x-ua-compatible" content="IE=6">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	
+	<link rel="stylesheet" type="text/css" href="http://192.168.36.124:8199/TIMS-Server/css/layer.css">
+	<link rel="stylesheet" type="text/css" href="http://192.168.36.124:8199/TIMS-Server/css/general.css">
+	<link rel="stylesheet" type="text/css" href="http://192.168.36.124:8199/TIMS-Server/css/icon.css">
+	<link rel="stylesheet" type="text/css" href="http://192.168.36.124:8199/TIMS-Server/css/easyui_new.css"><!--
+	
+	<script type="text/javascript" src="/CM/dwr/engine.js"></script>
+	<script type="text/javascript" src="/CM/dwr/util.js"></script>
+	<script type="text/javascript" src="/CM/dwr/interface/Cm_ManageDwrService.js"></script> 
+
+	--><!--<script type="text/javascript" src="http://192.168.36.124:8199/TIMS-Server/js/jquery.easyui.min.js"></script>-->
+	<script type="text/javascript" src="http://192.168.36.124:8199/TIMS-Server/othersrc/jquery-easyui/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="http://192.168.36.124:8199/TIMS-Server/othersrc/jquery-easyui/json2.js"></script>
+	<script type="text/javascript" src="http://192.168.36.124:8199/TIMS-Server/othersrc/jquery-easyui/json_parse_state.js"></script>
+	<script type="text/javascript" src="http://192.168.36.124:8199/TIMS-Server/othersrc/jquery-easyui/socket.io.js"></script>
+	
+	<!--  
+	<script type="text/javascript" src="../../js/JsValidate.js"></script>
+	<script type="text/javascript" src="../../js/InitDate.js"></script>
+	<script type="text/javascript" src="../../js/json2.js"></script>
+	<script type="text/javascript" src="../../js/json_parse.js"></script>
+	<script type="text/javascript" src="../../othersrc/jquery-easyui/socket.io.js"></script>
+	-->
+<style>
+	* {
+		margin: 0 0;
+		padding: 0 0;
+	}
+	body {
+		background-color: #037399;
+		overflow:hidden;
+		text-align:center;
+	}
+	a{color:red;}
+</style>
+</head>
+    <script type="text/javascript"> 
+	//var BusinessSerialNo = "444";	//业务流水号
+//	var scanType="0";     //扫描类型  0新增扫描 1审核退回扫描	
+
+	var BusinessSerialNo = "TCHZT000";	//业务流水号
+	BusinessSerialNo=BusinessSerialNo.replace(",","+");
+	var scanType="1";             
+	var modulename="网上报销";  
+	var tradtypeName="报销单";  
+	var detailInfo="123456";  
+	var billstate="null"; //单扫时需要校验 当billstate=0新增 billstate=10新增 
+	
+	var org_id="0";
+	var dept_id="0";
+	var systemcode="0";
+	var systemCode="NC";
+	var billtype="2641";
+	var saveopt="0";
+	var savestep="1";
+	
+	var uuid="";
+	
+	function loadnew(){
+		if(savestep=="2"){
+			$("#tj").show();
+		}
+		getipport();
+	}
+	
+
+	function getActivexParam(ipport){
+	//alert("getActivexParamsss");
+		
+		$.ajax({  
+			url:"http://192.168.36.124:8199/TIMS-Server/activeParamController/getScanActiveParamFromJSP_bynologin.action?org_id=0&dept_id=0&systemcode=NC",  
+			//dataType:'jsonp',
+			dataType:'html',  
+			data:'',  
+			//jsonp:'callback',  
+			success:function(data1) {
+			//alert("1_"+data1);
+			//var result = JSON.parse(data1);
+			var result = eval('(' + data1 + ')'); 
+			if(result[0].RESPCODE=='0000')
+			{
+			var xml="<?xml version='1.0' encoding='GBK'?>"+
+					"<CONFIG>"+
+					"<WEBSRV>"+
+					"<WEBURL>"+result[0].text[0].weburl+"</WEBURL>"+
+					"<CMIP>"+result[0].text[0].cmip+"</CMIP>"+
+					"<CMPORT>"+result[0].text[0].cmport+"</CMPORT>"+
+					"<YONYOUWEBURL>"+result[0].text[0].yonyouweburl+"</YONYOUWEBURL>"+
+					"</WEBSRV>"+
+					"<IMAGE_PROCESS>"+
+					"<COMPRESS>"+result[0].text[0].compress+"</COMPRESS>"+//图像压缩
+					"<COMPRESS_RATIO>"+result[0].text[0].compress_ratio+"</COMPRESS_RATIO>"+//压缩率
+					"<SUB_BLACK>"+result[0].text[0].sub_black+"</SUB_BLACK>"+//去黑边
+					"<TURN_CORRECT>"+result[0].text[0].turn_correct+"</TURN_CORRECT>"+//小角度转正
+					"<RECOGNIZE_OCR>"+result[0].text[0].recognize_ocr+"</RECOGNIZE_OCR>"+//orc识别
+					"<UPPERTOLOWERCASE>"+result[0].text[0].uppertolowercase+"</UPPERTOLOWERCASE>"+//大小写金额比对
+					"<OTHER_FILE_FORMAT>"+result[0].text[0].other_file_format+"</OTHER_FILE_FORMAT>"+//支持其他文件格式
+					"<COMBINE>"+result[0].text[0].combine+"</COMBINE>"+//合并
+					"<COMBINEDIRECTION>"+result[0].text[0].combinedirection+"</COMBINEDIRECTION>"+//合并方向
+					"<DOC_DIRECT_TURN_CORRECT>"+result[0].text[0].doc_direct_turn_correct+"</DOC_DIRECT_TURN_CORRECT>"+//文档转正
+					"<FILE_ENCRYPT>"+result[0].text[0].file_encrypt+"</FILE_ENCRYPT>"+//文件加密
+					"<MULTI_LABEL>"+result[0].text[0].multi_label+"</MULTI_LABEL>"+//多标签
+                    "<EXPORT>"+result[0].text[0].export_image+"</EXPORT>"+//导出图片
+					"</IMAGE_PROCESS>"+
+					"<SCANNER>"+				
+					"<PhoneScanner>"+result[0].text[0].phonescanner+"</PhoneScanner>"+
+					"<appScanTimeOut>"+result[0].text[0].appscantimeout+"</appScanTimeOut>"+//手机端扫描超时
+					"<appRegisterTimeOut>"+result[0].text[0].appregistertimeout+"</appRegisterTimeOut>"+//手机端扫描人领取超时
+					"</SCANNER>"+
+					"</CONFIG>";
+				//	alert(xml);
+				DialogControlb.SendConfigXml(xml); 
+			}else
+			{
+				alert("控件获取配置参数失败!");
+			}
+				
+				var xmlStr="";
+				if(scanType=="1"||scanType=="2"){
+						if(saveopt=="0"){//单扫
+							xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>0</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10010</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam>><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum><departnum>"+org_id+"</departnum><ImageIDs>80401201607070000000104804000104+80401201607060000000821804000821+80401201607060000000044804000044</ImageIDs></ZScanApp>"
+						}
+						else if(saveopt=="1"){//批扫
+							xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>1</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10010</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam>><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum></ZScanApp>"
+						}
+						else
+						{	
+							xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>0</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10010</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</
+2000
+OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam>><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum></ZScanApp>"
+						}
+								
+				//	xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>0</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10010</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam>><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum></ZScanApp>"
+			//		alert("22222222222222:"+xmlStr);
+					var res= DialogControlb.AsyncScanEx(xmlStr);
+
+				}else if(scanType==""||scanType=="null"||scanType==null)
+				{
+					xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>0</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10000</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum></ZScanApp>"
+			     	var res= DialogControlb.AsyncScanEx(xmlStr);
+				}
+				else
+				{
+					xmlStr="<?xml version=\"1.0\" encoding=\"GBK\"?><ZScanApp><SaveOpt>0</SaveOpt><BusinessSerialNo>"+BusinessSerialNo+"</BusinessSerialNo><AppSystemCode>"+modulename+"</AppSystemCode><TradeCodes><TradeCode>10000</TradeCode></TradeCodes><DocNames><DocName>"+tradtypeName+"</DocName></DocNames><TradeType>0</TradeType><BusynessType>1000</BusynessType><Channel>3</Channel><OrgCode>"+detailInfo+"</OrgCode><TellerNo>1101111</TellerNo><FinanceCard>0</FinanceCard><BatchID></BatchID><NoteStyle>1</NoteStyle><OutputDir>C:/Program\ Files/gsip/ScanCMdrvOcx/Image</OutputDir><ImportIMG>1</ImportIMG><GroupType>1</GroupType><DateTime>20120312121012</DateTime><IP>127.0.0.1</IP><Port>123455</Port><Priority>1</Priority><UpdateParam>0</UpdateParam><AppSystemCodeNum>"+systemCode+"</AppSystemCodeNum><BillTypeNum>"+billtype+"</BillTypeNum><IsSave>1</IsSave></ZScanApp>"
+				//	alert("3333333："+xmlStr);
+					var res= DialogControlb.AsyncScanEx(xmlStr);
+				}
+					
+				version=DialogControlb.GetVersion();//本地版本号
+			},  
+			error:function(result)
+			{
+				alert("请求失败，请联系管理员！");
+			},
+			timeout:600000  
+		});  
+				
+	}
+	
+	
+	
+	function getipport(){
+	  				
+	 	getServerVersion();
+		getActivexParam();
+		getOperSuggest();
+	}
+	
+	var version;//本地版本号
+
+	function getServerVersion(ipport){
+		var data1="";
+		$.ajax({  
+		    url:"http://192.168.36.124:8199/TIMS-Server/softController/getMaxSoftVersionBynologin.action",  
+		    //dataType:'jsonp',
+		    dataType:'html',  
+		    data:{uuid:uuid},
+		    type:'get',
+		    success:function(data1) {
+		    	//alert(data1);
+				//var result = JSON.parse(data1);
+				var result = eval('(' + data1 + ')'); 
+				var id=setInterval(function() { 
+		        	if (typeof version != "undefined"){
+		        		clearInterval(id);						
+		        		var url=window.location.host;
+		        		var data=result[0].text[0].version;//服务器版本号
+		        		var path=result[0].text[0].path;
+		        		//alert("当前使用版本："+version+"\n服务器最新版本："+data);
+						if(data!=version){
+							var html ="http://192.168.36.124:8199/TIMS-Server/softController/getSoftByNologin.action?version="+data;
+							$("#UpdateAcviveX").append('<a href="'+html+'" style="display:inline-block;width:100%;height:100%;"></a>');
+							document.getElementById("UpdateAcviveX").style.display="block";
+						}
+						
+			        }
+			    }, 1000);
+		    }, 			
+		    error:function(data1)
+		    {
+		    	//alert("error:"+result);
+		        alert("请求失败，请联系管理员！");
+		    },
+		    timeout:600000
+	    }); 		
+
+	}
+	
+	//根据流水号查询驳回意见、修改意见，显示再页面顶部
+	function getOperSuggest(){
+		var bsn="TCHZT000";
+		if(bsn==null||bsn=="null"||bsn==""||bsn=="undefined"){
+			$("#suggest").html("");
+		}else{
+			$.ajax({
+				url:"http://192.168.36.124:8199/TIMS-Server/imageManagerController/getOperSuggest",  
+				dataType:'text',  
+				data:{bsn:bsn},
+				type:"post",
+				success:function(data){
+					var d=eval("("+data+")");
+					if(d.result=="0"&&d.tasktype=="2"){//驳回重扫
+						$("#suggest").html("该笔任务为驳回重扫，处理意见：<br>（"+d.suggest+"）");
+					}else if(d.result=="0"&&d.tasktype=="3"){//驳回修改
+						$("#suggest").html("该笔任务为驳回修改，处理意见：<br>（"+d.suggest+"）");
+					}else{
+						$("#suggest").html("该笔任务为新增扫描");
+					}
+				},
+				error:function(data){
+					$("#suggest").html("");
+				}
+			});
+		}
+	}
+	
+		loadXML = function(xmlString){
+        var xmlDoc=null;
+        //判断浏览器的类型
+        //支持IE浏览器 
+        if(!window.DOMParser && window.ActiveXObject){   //window.DOMParser 判断是否是非ie浏览器
+            var xmlDomVersions = ['MSXML.2.DOMDocument.6.0','MSXML.2.DOMDocument.3.0','Microsoft.XMLDOM'];
+            for(var i=0;i<xmlDomVersions.length;i++){
+                try{
+                    xmlDoc = new ActiveXObject(xmlDomVersions[i]);
+                    xmlDoc.async = false;
+					//alert(xmlString);
+                    xmlDoc.loadXML(xmlString); //loadXML方法载入xml字符串
+                    break;
+                }catch(e){
+                }
+            }
+        }
+        //支持Mozilla浏览器
+        else if(window.DOMParser && document.implementation && document.implementation.createDocument){
+            try{
+                /* DOMParser 对象解析 XML 文本并返回一个 XML Document 对象。
+                 * 要使用 DOMParser，使用不带参数的构造函数来实例化它，然后调用其 parseFromString() 方法
+                 * parseFromString(text, contentType) 参数text:要解析的 XML 标记 参数contentType文本的内容类型
+                 * 可能是 "text/xml" 、"application/xml" 或 "application/xhtml+xml" 中的一个。注意，不支持 "text/html"。
+                 */
+                domParser = new  DOMParser();
+                xmlDoc = domParser.parseFromString(xmlString, 'text/xml');
+            }catch(e){
+            }
+        }
+        else{
+            return null;
+        }
+
+        return xmlDoc;
+    }
+	
+	
+	function savedate(){
+		if(DialogControlb.GetSaveState()==0){//没有需要保存的图片
+			alert("没有需要保存的图片");
+			return;
+		}
+		var res=DialogControlb.SaveImgs();
+		var xmlDoc = loadXML(res);
+		var pkno=xmlDoc.getElementsByTagName("PKNO"); 
+    	for(var i=0;i<pkno.length;i++){   
+    		 var rspcode=pkno[i].getElementsByTagName("RSPCODE")[0].firstChild.nodeValue; 
+			if(rspcode=='0'){
+				alert("保存成功");
+			}else{
+				alert("保存失败");
+			}
+        }
+ /*       if(savestep=="1"){
+        	DialogControlb.SendCloseMessage();   	
+        }  */   
+    }  
+		
+	function CloseTBrowser(){
+		DialogControlb.SendCloseMessage();
+	}
+
+740
+//适应屏幕
+$(function(){
+	$(window).resize(function(){
+		var height=$(window).height();
+		var width=$(window).width();
+		//alert(height);
+		$("#DialogControlb").css("width",(width-40)+"px");
+		$("#DialogControlb").css("height",(height-120)+"px");
+	});
+	$(window).resize();
+	$("#DialogControlb").show();
+});
+    </script>
+
+<body onload="loadnew()">
+<div style="position:relative;width:100%;height:60px;">
+	<div style="position:absolute;width:240px;height:30px;background-image:url(http://192.168.36.124:8199/TIMS-Server/images/tims_look.png);left:20px;top:14px;"></div>
+	<div id="suggest" style="position:absolute;width:240px;height:30px;left:500px;top:24px;color:#edf90a;font-size:12px;font-weight:bold;line-height:14px;overflow-x:hidden"></div>
+	<div id="UpdateAcviveX" style="position:absolute;width:144px;height:34px;background-image:url(http://192.168.36.124:8199/TIMS-Server/images/tc_newversion.png);right:20px;top:18px;display:none;"></div>
+</div>
+<div id="IE">
+	<OBJECT id="DialogControlb" style="margin:0px auto 0px auto;display:none;" classid="clsid:A5C98A27-3666-467A-9710-6E967F5BA1B2" VIEWASTEXT></OBJECT>
+</div>
+<div style="position:absolute;width:100%;height:60px;left:0px;bottom:0px;">
+	<div style="position:absolute;width:298px;height:38px;background-image:url(http://192.168.36.124:8199/TIMS-Server/images/tc_slogen.png);left:20px;top:11px;"></div>
+	<div style="position:absolute;width:151px;height:38px;background-image:url(http://192.168.36.124:8199/TIMS-Server/images/btn_save.png);right:400px;top:11px;cursor:pointer" onclick="savedate();"></div>
+	<div style="position:absolute;width:151px;height:38px;background-image:url(http://192.168.36.124:8199/TIMS-Server/images/btn_commit.png);right:160px;top:11px;cursor:pointer;display:none" id="tj" onclick="CloseTBrowser();"></div>
+</div>
+</body>
+</html>
+
+0
+
