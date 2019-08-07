@@ -1,0 +1,15 @@
+Virtual User Script started at : 2018-10-11 14:43:52
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(7): Web service call "addScanTask_101" started
+Action.c(7): Web service call "addScanTask_101" was successful
+Action.c(21): &lt;?xml version='1.0' encoding='GBK'?&gt;&lt;DATA&gt;&lt;RspCode&gt;0000&lt;/RspCode&gt;&lt;RspMsg&gt;³É¹¦&lt;/RspMsg&gt;&lt;/DATA&gt;
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

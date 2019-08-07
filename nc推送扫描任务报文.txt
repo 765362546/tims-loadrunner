@@ -1,0 +1,11 @@
+
+nc推送任务报文
+
+http://192.168.36.88:8199/TIMS-Server/services/DocumentsService?wsdl 
+addScanTask
+
+请求报文
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA><ReqHead><clientcode>NC</clientcode><servicecode>TIMS-Server</servicecode><time>20181010182950894</time><ticket>32838e8ba639fd18947e6c969f3ba2ee</ticket></ReqHead><BillBody><Bill><serviceid>0</serviceid><datasource>nc65</datasource><groupid>0001F910000000000QVW</groupid><DetailInfo>0001F910000000000QVW</DetailInfo><ScanType>2</ScanType><Busi_Serial_No>1001A110000000001B51</Busi_Serial_No><UserNo>ncc1</UserNo><BillCode>D12018101000000461</BillCode><userid>1001F910000000000BAC</userid><OrgName>北京公司（影像用）</OrgName><OrgNo>0001F910000000009T9Y</OrgNo><UserName>ncc1</UserName><Cash>12.00000000</Cash><BillDate>2018-10-10 18:29:50</BillDate><BillType>D1</BillType><pk_billtype>F1</pk_billtype></Bill></BillBody></DATA>
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\影像压测脚本\1-NC推送扫描任务
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\影像压测脚本\1-nc推送扫描任务\\logfile.log
+d:\影像压测脚本\1-nc推送扫描任务\\combined_NC推送扫描任务.c
+d:\影像压测脚本\1-nc推送扫描任务\\pre_cci.c
