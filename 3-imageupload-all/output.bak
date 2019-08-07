@@ -1,0 +1,77 @@
+Virtual User Script started at : 2018-10-11 20:03:02
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 2008 R2; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\影像压测脚本\3-imageupload-all\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(5): Notify: Transaction "1-show_scanhtml_and_getActiveConf_and_maxVer" started.
+Action.c(10): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/css/layer.css" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/css/general.css" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/css/icon.css" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/css/easyui_new.css" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/othersrc/jquery-easyui/jquery-1.4.2.min.js" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/othersrc/jquery-easyui/json2.js" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/othersrc/jquery-easyui/json_parse_state.js" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://172.16.56.112:8199/TIMS-Server/othersrc/jquery-easyui/socket.io.js" in HTML "http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT20181011-01355564&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"  	[MsgId: MMSG-26659]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/images/tims_look.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/images/tc_newversion.png" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/images/tc_slogen.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/images/btn_save.png" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/images/btn_commit.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/softController/getMaxSoftVersionBynologin.action?uuid=" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "http://172.16.56.112:8199/TIMS-Server/activeParamController/getScanActiveParamFromJSP_bynologin.action?org_id=0&dept_id=0&systemcode=NC" (specified by argument number 27)  	[MsgId: MMSG-26577]
+Action.c(18): web_url("imageupload.jsp") was successful, 366135 body bytes, 2849 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(35): Notify: Transaction "1-show_scanhtml_and_getActiveConf_and_maxVer" ended with "Pass" status (Duration: 0.6323 Wasted Time: 0.4110).
+Action.c(38): Notify: Transaction "2-get_OperSuggest" started.
+Action.c(40): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(44): Registered web_reg_find successful for "Text=result" (count=1)  	[MsgId: MMSG-26364]
+Action.c(44): web_submit_data("getOperSuggest") was successful, 42 body bytes, 151 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(55): Notify: Transaction "2-get_OperSuggest" ended with "Pass" status (Duration: 0.1418 Wasted Time: 0.0026).
+Action.c(59): Notify: Transaction "3-Query_before_scan" started.
+Action.c(61): web_custom_request("ContentInfoService") was successful, 697 body bytes, 149 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(73): Notify: Transaction "3-Query_before_scan" ended with "Pass" status (Duration: 0.0973 Wasted Time: 0.0018).
+Action.c(77): Notify: Transaction "4-get_new_batchid" started.
+Action.c(80): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_custom_request("ContentInfoService_2") was successful, 349 body bytes, 149 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "4-get_new_batchid" ended with "Pass" status (Duration: 0.0570 Wasted Time: 0.0049).
+Action.c(103): Notify: Transaction "5-upload_img_sock" started.
+Action.c(106): lrs_create_socket(socket0, TCP, ...)
+Action.c(108): lrs_send(socket0, buf0)
+Action.c(110): lrs_send(socket0, buf1)
+Action.c(112): lrs_close_socket(socket0)
+Action.c(114): Notify: Transaction "5-upload_img_sock" ended with "Pass" status (Duration: 0.3473).
+Action.c(120): Notify: Transaction "6-post_save_xml" started.
+Action.c(122): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(125): Registered web_reg_find successful for "Text=RSPCODE>00000&lt;/RSPCODE" (count=1)  	[MsgId: MMSG-26364]
+Action.c(125): web_custom_request("ContentInfoService_3") was successful, 776 body bytes, 149 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(138): Notify: Transaction "6-post_save_xml" ended with "Pass" status (Duration: 0.1037 Wasted Time: 0.0017).
+Action.c(143): Notify: Transaction "7-Query_after_save" started.
+Action.c(145): web_custom_request("ContentInfoService_4") was successful, 1455 body bytes, 149 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(157): Notify: Transaction "7-Query_after_save" ended with "Pass" status (Duration: 0.1147 Wasted Time: 0.0018).
+Action.c(162): Notify: Transaction "8-require_download_first_xml" started.
+Action.c(165): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(168): Registered web_reg_find successful for "Text=RSPCODE>30000&lt;/RSPCODE" (count=1)  	[MsgId: MMSG-26364]
+Action.c(168): web_custom_request("ContentInfoService_6") was successful, 1232 body bytes, 149 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(180): Notify: Transaction "8-require_download_first_xml" ended with "Pass" status (Duration: 0.1100 Wasted Time: 0.0013).
+Action.c(185): Notify: Transaction "9-download_first_img_sock" started.
+Action.c(187): lrs_create_socket(socket1, TCP, ...)
+Action.c(189): lrs_send(socket1, buf2)
+Action.c(191): lrs_receive(socket1, buf3)
+Action.c(191): Mismatch in buffer's length (expected 19304 bytes, 879687 bytes actually received, difference in 860383 bytes)
+Action.c(193): lrs_receive(socket1, buf4)
+Action.c(193): Mismatch in buffer's length (expected 860383 bytes, 0 bytes actually received, difference in 860383 bytes)
+Action.c(195): lrs_close_socket(socket1)
+Action.c(197): Notify: Transaction "9-download_first_img_sock" ended with "Pass" status (Duration: 0.0786).
+Action.c(202): 业务流水= TCHZT20181011-01355564
+Action.c(203): 批次号  = 80401201810110000030910804030910
+Action.c(204): 图像名称= img1011200302.jpg
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

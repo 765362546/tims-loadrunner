@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\影像压测脚本\3-imageupload-all
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\影像压测脚本\3-imageupload-all\\logfile.log
+d:\影像压测脚本\3-imageupload-all\\combined_imageupload-all.c
+d:\影像压测脚本\3-imageupload-all\\pre_cci.c
