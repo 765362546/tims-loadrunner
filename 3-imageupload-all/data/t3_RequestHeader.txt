@@ -1,0 +1,8 @@
+POST /TIMS-Server/services/ContentInfoService HTTP/1.1
+Content-Length: 851
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Accept: text/xml
+Host: 192.168.36.124
+User-Agent: Microsoft-ATL-Native/8.00
+

@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.xml
+URL1=http://192.168.36.124:8199/TIMS-Server/services/ContentInfoService
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=C4A0867B4716C44271E45107D0390DDB; Path=/TIMS-Server; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 30 Mar 2018 07:02:29 GMT
+

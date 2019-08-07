@@ -1,0 +1,286 @@
+[Network Analyzer ( a4c: 8c0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a4c: 8c0)] Load Network Traffic Analyzers:
+[Network Analyzer ( a4c: 8c0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( a4c: 8c0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( a4c: 8c0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( a4c: 8c0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( a4c: 8c0)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( a4c: 8c0)]     Analyzer Module: WinSock (value=GetRawProtocolAnalyzer:api_sock_proxy.dll)
+[Network Analyzer ( a4c: 8c0)]     + Network Analyzer: api_sock_proxy.dll @ GetRawProtocolAnalyzer Loaded!
+[Network Analyzer ( a4c: 8c0)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( a4c: 8c0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a4c: d1c)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: 2dc)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: 2dc)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT000&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 634 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 15584 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/css/layer.css"   
+[Network Analyzer ( a4c: 2dc)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 750 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 9377 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/css/icon.css"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 749 bytes (Service=HTTP)
+[Network Analyzer ( a4c: 2dc)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/css/general.css"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 752 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 1187 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/css/easyui_new.css"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 755 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 4584 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/othersrc/jquery-easyui/jquery-1.4.2.min.js"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 779 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 12609 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/othersrc/jquery-easyui/json2.js"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 768 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 2229 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/othersrc/jquery-easyui/json_parse_state.js"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 779 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 5864 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 6828 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/othersrc/jquery-easyui/socket.io.js"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 772 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 10399 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/images/tims_look.png"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 757 bytes (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/images/tc_newversion.png"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 761 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 6957 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 2141 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/images/tc_slogen.png"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 757 bytes (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/images/btn_save.png"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 756 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 12326 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 2272 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/images/btn_commit.png"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 758 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 2440 bytes  (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/softController/getMaxSoftVersionBynologin.action?uuid="   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 885 bytes (Service=HTTP)
+[Web Request      ( a4c: d1c)] "GET /TIMS-Server/activeParamController/getScanActiveParamFromJSP_bynologin.action?org_id=0&dept_id=0&systemcode=NC"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Client -> Server : 879 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 262 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 915 bytes (Service=HTTP)
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/imageManagerController/getOperSuggest"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Client -> Server : 12 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  1) Server -> Client : 750 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: d1c)]   (Sid:  2) Server -> Client : 174 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  3) Client -> Server : 1064 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  3) Server -> Client : 844 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  4) Client -> Server : 531 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  4) Server -> Client : 505 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:28390   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 16384 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 10240 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 9216 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Client -> Server : 5191 bytes (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  6) Client -> Server : 2196 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  6) Server -> Client : 923 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  7) Client -> Server : 1064 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  7) Server -> Client : 1603 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  8) Client -> Server : 1096 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  8) Server -> Client : 1555 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( a4c: d1c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:8199   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( a4c: d1c)] "POST /TIMS-Server/services/ContentInfoService"   
+[Network Analyzer ( a4c: d1c)]   (Sid:  9) Client -> Server : 1997 bytes (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  9) Server -> Client : 1374 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: d1c)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( a4c: a18)] Address lookup for tchzt-PC = 192.168.36.148
+[Network Analyzer ( a4c: a18)] Request Connection: Remote Server @ 192.168.36.124:28390   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Client -> Server : 293 bytes 
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Server -> Client : 8415 bytes  (Service=SOCKET)
+[Network Analyzer ( a4c: d1c)]   (Sid: 10) Connection Terminated (by Server)

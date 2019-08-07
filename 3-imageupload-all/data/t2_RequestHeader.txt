@@ -1,0 +1,14 @@
+POST /TIMS-Server/imageManagerController/getOperSuggest HTTP/1.1
+x-requested-with: XMLHttpRequest
+Accept-Language: zh-cn
+Referer: http://192.168.36.124:8199/TIMS-Server/nc-jsp/imageupload.jsp?pk_jkbx=TCHZT000&scanType=1&modulename=%25E7%25BD%2591%25E4%25B8%258A%25E6%258A%25A5%25E9%2594%2580&tradtypeName=%25E6%258A%25A5%25E9%2594%2580%25E5%258D%2595&billNo=201512120005&detailInfo=detailInfo&orgNo=0&dept_id=0&billtype=2641&systemCode=NC&saveopt=0&savestep=1&1
+Accept: text/plain, */*
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+Host: 192.168.36.124:8199
+Content-Length: 12
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: JSESSIONID=C4A0867B4716C44271E45107D0390DDB
+

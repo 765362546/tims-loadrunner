@@ -1,0 +1,1 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><ns1:CM_GetIDResponse xmlns:ns1="http://webservice.tims.tchzt.com"><ns1:out>80401201803300000000032804000032</ns1:out></ns1:CM_GetIDResponse></soap:Body></soap:Envelope>

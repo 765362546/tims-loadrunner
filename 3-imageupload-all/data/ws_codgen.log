@@ -1,0 +1,751 @@
+WSFilter: Init: data wsSocketSort
+SocketSort: 0: session id error
+SocketSort
+SocketSort: 1: session id error
+SocketSort
+SocketSort: 2: session id - 1: wplus_connect
+SocketSort
+SocketSort: 3: session id error
+SocketSort
+SocketSort: 4: session id - 2: wplus_connect
+SocketSort
+SocketSort: 5: session id error
+SocketSort
+SocketSort: 6: session id error
+SocketSort
+SocketSort: 7: session id error
+SocketSort
+SocketSort: 8: session id - 3: wplus_connect
+SocketSort
+SocketSort
+SocketSort: 10: session id error
+SocketSort
+SocketSort: 11: session id error
+SocketSort
+SocketSort: 12: session id - 4: wplus_connect
+SocketSort
+SocketSort: 13: session id error
+SocketSort
+SocketSort: 14: session id - 5: wplus_connect
+SocketSort
+SocketSort: 15: session id - 5: wplus__send_recv
+SocketSort: 15: set winsock
+SocketSort
+SocketSort
+SocketSort: 17: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 18: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 19: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 20: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 21: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 22: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 23: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 24: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 25: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 26: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 27: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 28: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 29: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 30: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 31: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 32: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 33: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 34: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 35: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 36: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 37: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 38: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 39: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 40: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 41: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 42: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 43: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 44: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 45: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 46: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 47: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 48: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 49: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 50: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 51: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 52: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 53: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 54: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 55: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 56: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 57: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 58: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 59: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 60: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 61: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 62: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 63: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 64: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 65: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 66: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 67: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 68: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 69: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 70: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 71: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 72: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 73: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 74: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 75: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 76: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 77: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 78: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 79: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 80: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 81: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 82: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 83: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 84: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 85: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 86: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 87: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 88: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 89: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 90: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 91: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 92: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 93: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 94: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 95: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 96: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 97: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 98: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 99: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 100: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 101: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 102: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 103: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 104: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 105: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 106: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 107: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 108: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 109: session id - 5: wplus__send_recv
+SocketSort
+SocketSort: 110: session id - 5: wplus__send_recv
+SocketSort
+SocketSort
+SocketSort: 112: session id error
+SocketSort
+SocketSort: 113: session id - 6: wplus_connect
+SocketSort
+SocketSort
+SocketSort: 115: session id error
+SocketSort
+SocketSort: 116: session id error
+SocketSort
+SocketSort: 117: session id - 7: wplus_connect
+SocketSort
+SocketSort: 118: session id error
+SocketSort
+SocketSort: 119: session id error
+SocketSort
+SocketSort: 120: session id - 8: wplus_connect
+SocketSort
+SocketSort
+SocketSort
+SocketSort: 123: session id error
+SocketSort
+SocketSort: 124: session id - 9: wplus_connect
+SocketSort
+SocketSort: 125: session id error
+SocketSort
+SocketSort: 126: session id - 10: wplus_connect
+SocketSort
+SocketSort: 127: session id - 10: wplus__send_recv
+SocketSort: 127: set winsock
+SocketSort
+SocketSort: 128: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 129: session id - 10: wplus__send_recv
+SocketSort
+SocketSort
+SocketSort: 131: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 132: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 133: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 134: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 135: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 136: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 137: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 138: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 139: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 140: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 141: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 142: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 143: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 144: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 145: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 146: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 147: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 148: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 149: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 150: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 151: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 152: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 153: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 154: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 155: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 156: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 157: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 158: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 159: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 160: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 161: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 162: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 163: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 164: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 165: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 166: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 167: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 168: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 169: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 170: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 171: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 172: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 173: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 174: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 175: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 176: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 177: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 178: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 179: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 180: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 181: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 182: session id - 10: wplus__send_recv
+SocketSort
+SocketSort: 183: session id - 10: wplus__send_recv
+SocketSort
+WSFilter
+WSFilter: 0: session id error
+WSFilter
+WSFilter: 0: session id error
+WSFilter
+WSFilter: 0: session id - 1: wplus_connect
+WSFilter
+WSFilter: 1: session id error
+WSFilter
+WSFilter: 1: session id - 2: wplus_connect
+WSFilter
+WSFilter: 2: session id error
+WSFilter
+WSFilter: 2: session id error
+WSFilter
+WSFilter: 2: session id error
+WSFilter
+WSFilter: 2: session id - 3: wplus_connect
+WSFilter
+WSFilter: 3: session id 3: wplus_close_socket
+WSFilter: 3: not winsock
+WSFilter
+WSFilter: 4: session id error
+WSFilter
+WSFilter: 4: session id error
+WSFilter
+WSFilter: 4: session id - 4: wplus_connect
+WSFilter
+WSFilter: 5: session id error
+WSFilter
+WSFilter: 5: session id - 5: wplus_connect
+WSFilter: remotehost generated by gethostbyaddr
+WSFilter: 5: add socket0 
+WSFilter
+WSFilter: 6: session id - 5: wplus_send
+WSFilter: 6: socket0: buf0
+WSFilter
+WSFilter: 7: session id 4: wplus_close_socket
+WSFilter: 7: not winsock
+WSFilter
+WSFilter: 8: session id - 5: wplus_send
+WSFilter
+WSFilter: 9: session id - 5: wplus_send
+WSFilter
+WSFilter: 10: session id - 5: wplus_send
+WSFilter
+WSFilter: 11: session id - 5: wplus_send
+WSFilter
+WSFilter: 12: session id - 5: wplus_send
+WSFilter
+WSFilter: 13: session id - 5: wplus_send
+WSFilter
+WSFilter: 14: session id - 5: wplus_send
+WSFilter
+WSFilter: 15: session id - 5: wplus_send
+WSFilter
+WSFilter: 16: session id - 5: wplus_send
+WSFilter
+WSFilter: 17: session id - 5: wplus_send
+WSFilter
+WSFilter: 18: session id - 5: wplus_send
+WSFilter
+WSFilter: 19: session id - 5: wplus_send
+WSFilter
+WSFilter: 20: session id - 5: wplus_send
+WSFilter
+WSFilter: 21: session id - 5: wplus_send
+WSFilter
+WSFilter: 22: session id - 5: wplus_send
+WSFilter
+WSFilter: 23: session id - 5: wplus_send
+WSFilter
+WSFilter: 24: session id - 5: wplus_send
+WSFilter
+WSFilter: 25: session id - 5: wplus_send
+WSFilter
+WSFilter: 26: session id - 5: wplus_send
+WSFilter
+WSFilter: 27: session id - 5: wplus_send
+WSFilter
+WSFilter: 28: session id - 5: wplus_send
+WSFilter
+WSFilter: 29: session id - 5: wplus_send
+WSFilter
+WSFilter: 30: session id - 5: wplus_send
+WSFilter
+WSFilter: 31: session id - 5: wplus_send
+WSFilter
+WSFilter: 32: session id - 5: wplus_send
+WSFilter
+WSFilter: 33: session id - 5: wplus_send
+WSFilter
+WSFilter: 34: session id - 5: wplus_send
+WSFilter
+WSFilter: 35: session id - 5: wplus_send
+WSFilter
+WSFilter: 36: session id - 5: wplus_send
+WSFilter
+WSFilter: 37: session id - 5: wplus_send
+WSFilter
+WSFilter: 38: session id - 5: wplus_send
+WSFilter
+WSFilter: 39: session id - 5: wplus_send
+WSFilter
+WSFilter: 40: session id - 5: wplus_send
+WSFilter
+WSFilter: 41: session id - 5: wplus_send
+WSFilter
+WSFilter: 42: session id - 5: wplus_send
+WSFilter
+WSFilter: 43: session id - 5: wplus_send
+WSFilter
+WSFilter: 44: session id - 5: wplus_send
+WSFilter
+WSFilter: 45: session id - 5: wplus_send
+WSFilter
+WSFilter: 46: session id - 5: wplus_send
+WSFilter
+WSFilter: 47: session id - 5: wplus_send
+WSFilter
+WSFilter: 48: session id - 5: wplus_send
+WSFilter
+WSFilter: 49: session id - 5: wplus_send
+WSFilter
+WSFilter: 50: session id - 5: wplus_send
+WSFilter
+WSFilter: 51: session id - 5: wplus_send
+WSFilter
+WSFilter: 52: session id - 5: wplus_send
+WSFilter
+WSFilter: 53: session id - 5: wplus_send
+WSFilter
+WSFilter: 54: session id - 5: wplus_send
+WSFilter
+WSFilter: 55: session id - 5: wplus_send
+WSFilter
+WSFilter: 56: session id - 5: wplus_send
+WSFilter
+WSFilter: 57: session id - 5: wplus_send
+WSFilter
+WSFilter: 58: session id - 5: wplus_send
+WSFilter
+WSFilter: 59: session id - 5: wplus_send
+WSFilter
+WSFilter: 60: session id - 5: wplus_send
+WSFilter
+WSFilter: 61: session id - 5: wplus_send
+WSFilter
+WSFilter: 62: session id - 5: wplus_send
+WSFilter
+WSFilter: 63: session id - 5: wplus_send
+WSFilter
+WSFilter: 64: session id - 5: wplus_send
+WSFilter
+WSFilter: 65: session id - 5: wplus_send
+WSFilter
+WSFilter: 66: session id - 5: wplus_send
+WSFilter
+WSFilter: 67: session id - 5: wplus_send
+WSFilter
+WSFilter: 68: session id - 5: wplus_send
+WSFilter
+WSFilter: 69: session id - 5: wplus_send
+WSFilter
+WSFilter: 70: session id - 5: wplus_send
+WSFilter
+WSFilter: 71: session id - 5: wplus_send
+WSFilter
+WSFilter: 72: session id - 5: wplus_send
+WSFilter
+WSFilter: 73: session id - 5: wplus_send
+WSFilter
+WSFilter: 74: session id - 5: wplus_send
+WSFilter
+WSFilter: 75: session id - 5: wplus_send
+WSFilter
+WSFilter: 76: session id - 5: wplus_send
+WSFilter
+WSFilter: 77: session id - 5: wplus_send
+WSFilter
+WSFilter: 78: session id - 5: wplus_send
+WSFilter
+WSFilter: 79: session id - 5: wplus_send
+WSFilter
+WSFilter: 80: session id - 5: wplus_send
+WSFilter
+WSFilter: 81: session id - 5: wplus_send
+WSFilter
+WSFilter: 82: session id - 5: wplus_send
+WSFilter
+WSFilter: 83: session id - 5: wplus_send
+WSFilter
+WSFilter: 84: session id - 5: wplus_send
+WSFilter
+WSFilter: 85: session id - 5: wplus_send
+WSFilter
+WSFilter: 86: session id - 5: wplus_send
+WSFilter
+WSFilter: 87: session id - 5: wplus_send
+WSFilter
+WSFilter: 88: session id - 5: wplus_send
+WSFilter
+WSFilter: 89: session id - 5: wplus_send
+WSFilter
+WSFilter: 90: session id - 5: wplus_send
+WSFilter
+WSFilter: 91: session id - 5: wplus_send
+WSFilter
+WSFilter: 92: session id - 5: wplus_send
+WSFilter
+WSFilter: 93: session id - 5: wplus_send
+WSFilter
+WSFilter: 94: session id - 5: wplus_send
+WSFilter
+WSFilter: 95: session id - 5: wplus_send
+WSFilter
+WSFilter: 96: session id - 5: wplus_send
+WSFilter
+WSFilter: 97: session id - 5: wplus_send
+WSFilter
+WSFilter: 98: session id - 5: wplus_send
+WSFilter
+WSFilter: 99: session id - 5: wplus_send
+WSFilter
+WSFilter: 100: session id - 5: wplus_send
+WSFilter
+WSFilter: 101: session id - 5: wplus_send
+WSFilter: 101: socket0: buf1
+WSFilter
+WSFilter: 102: session id 5: wplus_close_socket
+WSFilter: 102: close socket0
+WSFilter
+WSFilter: 103: session id error
+WSFilter
+WSFilter: 103: session id - 6: wplus_connect
+WSFilter
+WSFilter: 104: session id 6: wplus_close_socket
+WSFilter: 104: not winsock
+WSFilter
+WSFilter: 105: session id error
+WSFilter
+WSFilter: 105: session id error
+WSFilter
+WSFilter: 105: session id - 7: wplus_connect
+WSFilter
+WSFilter: 106: session id error
+WSFilter
+WSFilter: 106: session id error
+WSFilter
+WSFilter: 106: session id - 8: wplus_connect
+WSFilter
+WSFilter: 107: session id 7: wplus_close_socket
+WSFilter: 107: not winsock
+WSFilter
+WSFilter: 108: session id 8: wplus_close_socket
+WSFilter: 108: not winsock
+WSFilter
+WSFilter: 109: session id error
+WSFilter
+WSFilter: 109: session id - 9: wplus_connect
+WSFilter
+WSFilter: 110: session id error
+WSFilter
+WSFilter: 110: session id - 10: wplus_connect
+WSFilter: remotehost generated by gethostbyaddr
+WSFilter: 110: add socket1 
+WSFilter
+WSFilter: 111: session id - 10: wplus_send
+WSFilter: 111: socket1: buf2
+WSFilter
+WSFilter: 112: session id - 10: wplus_recv
+WSFilter
+WSFilter: 113: session id - 10: wplus_recv
+WSFilter: 113: socket1: buf3
+WSFilter
+WSFilter: 114: session id 9: wplus_close_socket
+WSFilter: 114: not winsock
+WSFilter
+WSFilter: 115: session id - 10: wplus_recv
+WSFilter
+WSFilter: 116: session id - 10: wplus_recv
+WSFilter
+WSFilter: 117: session id - 10: wplus_recv
+WSFilter
+WSFilter: 118: session id - 10: wplus_recv
+WSFilter
+WSFilter: 119: session id - 10: wplus_recv
+WSFilter
+WSFilter: 120: session id - 10: wplus_recv
+WSFilter
+WSFilter: 121: session id - 10: wplus_recv
+WSFilter
+WSFilter: 122: session id - 10: wplus_recv
+WSFilter
+WSFilter: 123: session id - 10: wplus_recv
+WSFilter
+WSFilter: 124: session id - 10: wplus_recv
+WSFilter
+WSFilter: 125: session id - 10: wplus_recv
+WSFilter
+WSFilter: 126: session id - 10: wplus_recv
+WSFilter
+WSFilter: 127: session id - 10: wplus_recv
+WSFilter
+WSFilter: 128: session id - 10: wplus_recv
+WSFilter
+WSFilter: 129: session id - 10: wplus_recv
+WSFilter
+WSFilter: 130: session id - 10: wplus_recv
+WSFilter
+WSFilter: 131: session id - 10: wplus_recv
+WSFilter
+WSFilter: 132: session id - 10: wplus_recv
+WSFilter
+WSFilter: 133: session id - 10: wplus_recv
+WSFilter
+WSFilter: 134: session id - 10: wplus_recv
+WSFilter
+WSFilter: 135: session id - 10: wplus_recv
+WSFilter
+WSFilter: 136: session id - 10: wplus_recv
+WSFilter
+WSFilter: 137: session id - 10: wplus_recv
+WSFilter
+WSFilter: 138: session id - 10: wplus_recv
+WSFilter
+WSFilter: 139: session id - 10: wplus_recv
+WSFilter
+WSFilter: 140: session id - 10: wplus_recv
+WSFilter
+WSFilter: 141: session id - 10: wplus_recv
+WSFilter
+WSFilter: 142: session id - 10: wplus_recv
+WSFilter
+WSFilter: 143: session id - 10: wplus_recv
+WSFilter
+WSFilter: 144: session id - 10: wplus_recv
+WSFilter
+WSFilter: 145: session id - 10: wplus_recv
+WSFilter
+WSFilter: 146: session id - 10: wplus_recv
+WSFilter
+WSFilter: 147: session id - 10: wplus_recv
+WSFilter
+WSFilter: 148: session id - 10: wplus_recv
+WSFilter
+WSFilter: 149: session id - 10: wplus_recv
+WSFilter
+WSFilter: 150: session id - 10: wplus_recv
+WSFilter
+WSFilter: 151: session id - 10: wplus_recv
+WSFilter
+WSFilter: 152: session id - 10: wplus_recv
+WSFilter
+WSFilter: 153: session id - 10: wplus_recv
+WSFilter
+WSFilter: 154: session id - 10: wplus_recv
+WSFilter
+WSFilter: 155: session id - 10: wplus_recv
+WSFilter
+WSFilter: 156: session id - 10: wplus_recv
+WSFilter
+WSFilter: 157: session id - 10: wplus_recv
+WSFilter
+WSFilter: 158: session id - 10: wplus_recv
+WSFilter
+WSFilter: 159: session id - 10: wplus_recv
+WSFilter
+WSFilter: 160: session id - 10: wplus_recv
+WSFilter
+WSFilter: 161: session id - 10: wplus_recv
+WSFilter
+WSFilter: 162: session id - 10: wplus_recv
+WSFilter
+WSFilter: 163: session id - 10: wplus_recv
+WSFilter
+WSFilter: 164: session id - 10: wplus_recv
+WSFilter
+WSFilter: 165: session id - 10: wplus_recv
+WSFilter
+WSFilter: 166: session id - 10: wplus_recv
+WSFilter
+WSFilter: 167: session id - 10: wplus_recv
+WSFilter: 167: socket1: buf4
+WSFilter
+WSFilter: 168: session id 10: wplus_close_socket
+WSFilter: 168: close socket1
