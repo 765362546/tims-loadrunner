@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\影像压测脚本\2-singleLogin-全员扫单点登录返回扫描地址
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\影像压测脚本\2-singlelogin-全员扫单点登录返回扫描地址\\logfile.log
+d:\影像压测脚本\2-singlelogin-全员扫单点登录返回扫描地址\\combined_singleLogin-全员扫单点登录返回扫描地址.c
+d:\影像压测脚本\2-singlelogin-全员扫单点登录返回扫描地址\\pre_cci.c

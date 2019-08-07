@@ -1,0 +1,16 @@
+Virtual User Script started at : 2018-10-11 16:57:13
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Web service call "singleLogin_101" started
+Action.c(4): Web service call "singleLogin_101" was successful
+Action.c(18): &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;DATA&gt;&lt;RspCode&gt;0011&lt;/RspCode&gt;&lt;RspMsg&gt;主动获取非扫描任务失败[流程平台缓存中不存在该单据或交易类型=tc]&lt;/RspMsg&gt;&lt;RspUrl&gt;{"ip":"172.16.56.112","port":"8199","url_download":"http://172.16.56.112:8199/TIMS-Server/nc-jsp/downloadActivex.jsp","url_opensoft":"http://172.16.56.112:8199/TIMS-Server"}&lt;/RspUrl&gt;&lt;/DATA&gt;
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

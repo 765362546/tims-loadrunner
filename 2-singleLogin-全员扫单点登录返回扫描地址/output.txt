@@ -1,0 +1,16 @@
+Virtual User Script started at : 2018-10-11 17:00:57
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Web service call "singleLogin_101" started
+Action.c(4): Web service call "singleLogin_101" was successful
+Action.c(18): &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;DATA&gt;&lt;RspCode&gt;0000&lt;/RspCode&gt;&lt;RspMsg&gt;扫描路径获取成功&lt;/RspMsg&gt;&lt;RspUrl&gt;{"ip":"172.16.56.112","port":"8199","url_download":"http://172.16.56.112:8199/TIMS-Server/nc-jsp/downloadActivex.jsp","url_opensoft":"TURLProtocol:http://172.16.56.112:8199/TIMS-Server/nc-jsp/imageupload-nc.jsp?isChecked=1&amp;amp;pk_jkbx=TCHZT20181011-01355564&amp;amp;scanType=2&amp;amp;taskType=0&amp;amp;scanTypeS=1&amp;amp;batchids=null&amp;amp;modulename=&amp;amp;taskState=0&amp;amp;tradtypeName=&amp;amp;billNo=D12018101000000461&amp;amp;billtype=D1&amp;amp;sessionusername=ncc2&amp;amp;sessionuserid=1001F910000000000BAG&amp;amp;sessionusernum=ncc2&amp;amp;sessiondatasource=nc65demo+&amp;amp;systemcode=NC&amp;amp;isTask=0&amp;amp;orgNo=0001F910000000000QVW&amp;amp;bill_state=0&amp;amp;groupid=0001F910000000000QVW"}&lt;/RspUrl&gt;&lt;/DATA&gt;
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

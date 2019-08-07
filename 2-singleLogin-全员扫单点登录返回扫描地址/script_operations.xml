@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<Services><Service name="DocumentsService" namespace="http://webservice.tims.tchzt.com"><Port name="DocumentsServiceHttpPort"><Operation>singleLogin</Operation></Port></Service></Services>

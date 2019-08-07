@@ -1,0 +1,17 @@
+http://192.168.36.88:8199/TIMS-Server/services/DocumentsService?wsdl   singleLogin
+
+从单据上，直接点扫描  --- 全员扫描
+
+
+
+请求报文
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA><ReqHead><clientcode>NC</clientcode><servicecode>TIMS-Server</servicecode><time>20181010181308738</time><ticket>3ebc9f4d4ea1fb4caa7bb30669c1beef</ticket></ReqHead><BillBody><Bill/><barcode>F11001A110000000001B2N</barcode><BillType>D1</BillType><Busi_Serial_No>1001A110000000001B2N</Busi_Serial_No><userid>1001F910000000000BAG</userid><UserNo>ncc2</UserNo><UserName>ncc2</UserName><pk_group>0001F910000000000QVW</pk_group><OrgNo>0001F910000000000QVW</OrgNo><pk_psndoc>1001F910000000000E61</pk_psndoc><pk_base_doc>1001F910000000000E61</pk_base_doc><groupid>0001F910000000000QVW</groupid><datasource>nc65</datasource><ScanType>2</ScanType></BillBody></DATA>
+
+
+返回报文
+Return value and output parameters:
+---------------------------------------------------
+out=<?xml version="1.0" encoding="utf-8"?>
+<DATA><RspCode>0000</RspCode><RspMsg>扫描路径获取成功</RspMsg><RspUrl>{"ip":"192.168.36.88","port":"8199","url_download":"http://192.168.36.88:8199/TIMS-Server/nc-jsp/downloadActivex.jsp","url_opensoft":"TURLProtocol:http://192.168.36.88:8199/TIMS-Server/nc-jsp/imageupload-nc.jsp?isChecked=1&amp;pk_jkbx=1001A110000000001B2N&amp;scanType=2&amp;taskType=1&amp;scanTypeS=1&amp;batchids=null&amp;modulename=&amp;taskState=1&amp;tradtypeName=&amp;billNo=D12018101000000444&amp;billtype=D1&amp;sessionusername=ncc2&amp;sessionuserid=1001F910000000000BAG&amp;sessionusernum=ncc2&amp;sessiondatasource=nc65+&amp;systemcode=NC&amp;isTask=0&amp;orgNo=0001F910000000000QVW&amp;bill_state=0&amp;groupid=0001F910000000000QVW"}</RspUrl></DATA>
