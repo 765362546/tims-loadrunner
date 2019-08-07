@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\影像压测脚本\4-影像查看相关
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\影像压测脚本\4-影像查看相关\\logfile.log
+d:\影像压测脚本\4-影像查看相关\\combined_影像查看相关.c
+d:\影像压测脚本\4-影像查看相关\\pre_cci.c

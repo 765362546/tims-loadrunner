@@ -1,0 +1,27 @@
+Virtual User Script started at : 2018-10-12 10:01:55
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(7): Notify: Transaction "getImageShowUrl" started.
+Action.c(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): Web service call "getImageShowUrl_101" started
+Action.c(15): Web service call "getImageShowUrl_101" was successful
+Action.c(30): Notify: Transaction "getImageShowUrl" ended with "Pass" status (Duration: 0.6502 Wasted Time: 0.4649).
+Action.c(33): getImageShowUrl方法请求报文：&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;DATA&gt;&lt;RspCode&gt;0000&lt;/RspCode&gt;&lt;RspMsg&gt;认证成功&lt;/RspMsg&gt;&lt;RspUrl&gt;http://172.16.56.112:8199/TIMS-Server/tims.jsp?pk=TCHZT20181011-05020577&amp;amp;billType=D1&amp;amp;scanType=1&amp;amp;isEdit=1&amp;amp;username=ncc3&amp;amp;usernum=ncc3&amp;amp;userid=1001F910000000000BAK&amp;amp;systype=localhost:80&amp;amp;billnum=D12018101000000461&lt;/RspUrl&gt;&lt;/DATA&gt;
+Action.c(39): Notify: Transaction "getimagetree" started.
+Action.c(41): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(46): Registered web_reg_find successful for "Text=0000" (count=8)  	[MsgId: MMSG-26364]
+Action.c(46): Registered web_reg_find successful for "Text=children" (count=3)  	[MsgId: MMSG-26364]
+Action.c(46): web_url("getImagesByPKlogin.action") was successful, 496 body bytes, 233 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(53): Notify: Transaction "getimagetree" ended with "Pass" status (Duration: 0.2592 Wasted Time: 0.1895).
+Action.c(60): Notify: Transaction "downloadimage" started.
+Action.c(63): web_url("getImageByNologin.action") was successful, 879394 body bytes, 330 header bytes, 868 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(71): Notify: Transaction "downloadimage" ended with "Pass" status (Duration: 0.0861 Wasted Time: 0.0516).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

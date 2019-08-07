@@ -1,0 +1,56 @@
+影像查看报文
+
+DocumentsService
+
+getImageShowUrl方法请求报文
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA><ReqHead><clientcode>NC</clientcode><servicecode>TIMS-Server</servicecode><time>20181011103139120</time><ticket>9a55b00b0fcba576c971b1c07ac8e199</ticket></ReqHead><BillBody><Bill/><barcode>F11001A110000000001B3X</barcode><Busi_Serial_No>1001A110000000001B3X</Busi_Serial_No><UserNo>ncc3</UserNo><UserName>ncc3</UserName><BillType>D1</BillType><userid>>1001F910000000000BAK</userid>><IsEdit>1</IsEdit><systype>localhost:80</systype></BillBody></DATA>
+
+影像后台请求了一下nc的DataSource  方法名 getDatasource  nc会返回DataSource信息，影像后边会用到这个值
+这个是nc的接口
+请求报文：
+<?xml version='1.0' encoding='UTF-8'?><params><factorycode>tchzt2</factorycode><servername>getNCDatasources</servername></params>
+nc的返回报文
+<?xml version="1.0" encoding="UTF-8"?>
+<busiCenters>
+	<busiCenter>
+		<code>1</code>
+		<name>nc65</name>
+		<effectDate>2018-01-12 00:00:00</effectDate>
+		<expireDate>2100-04-01 23:59:59</expireDate>
+		<isLocked>N</isLocked>
+		<dataSourceName>nc65</dataSourceName>
+		<isPortalBC>N</isPortalBC>
+	</busiCenter>
+<ncwsresult>true</ncwsresult></busiCenters>
+
+获取到datasource之后，影像返回影像查看用的报文
+
+<?xml version="1.0" encoding="UTF-8"?><DATA><RspCode>0000</RspCode><RspMsg>认证成功</RspMsg><RspUrl>http://192.168.36.88:8199/TIMS-Server/tims.jsp?pk=1001A110000000001B3X&amp;billType=D1&amp;scanType=1&amp;isEdit=1&amp;username=ncc3&amp;usernum=ncc3&amp;userid=1001F910000000000BAK&amp;systype=localhost:80&amp;billnum=D12018101000000457</RspUrl></DATA>
+
+nc收到这个报文之后，解析，用浏览器打开报文中的影像查看地址
+
+调用了 prehandle 方法 进行登录身份校验：/TIMS-Server/ncRequestController/getImagesByPKlogin.action----作用未知
+
+调用getImagesByPK方法---进入CMGetForOnePk方法
+
+接口 ContentInfoService  CMGetForOnePk
+
+方法请求报文:1001A110000000001B3X
+方法返回报文：
+[{"id":1,"text":"影像展示根目录","children":[{"departNum":"80401201810100000020005804020005","text":"网上报销(1)","children":[{"id":"1","text":"应付单","children":[{"departNum":"80401201810100000020006804020006","type":"0","width":"","height":"","index":"0","id":"image0","text":"1.jpg","url":"http://192.168.36.88:8199/TIMS-Server/cMImageController/getImageByNologin.action?file_id=80401201810100000020006804020006","fileid":"80401201810100000020006804020006"}]}]}]}]
+
+返回的即为目录树
+
+
+
+然后又调用了 prehandle 方法 进行登录身份校验：/TIMS-Server/ncRequestController/getImagesByPKlogin.action----作用未知
+
+/TIMS-Server/ncRequestController/getImagesByPKlogin.action?pk=1001A110000000001B3X&_=1539225962466
+
+/TIMS-Server/cMImageController/getImageByNologin.action?file_id=80401201810100000020006804020006
+
+
+
+

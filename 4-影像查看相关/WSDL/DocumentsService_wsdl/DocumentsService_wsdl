@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://webservice.tims.tchzt.com" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:tns="http://webservice.tims.tchzt.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <wsdl:types>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://webservice.tims.tchzt.com">
+<xsd:element name="filingScanTask">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="filingScanTaskResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getAllBillType">
+<xsd:complexType/>
+</xsd:element>
+<xsd:element name="getAllBillTypeResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="updateScanTaskState">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="updateScanTaskStateResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="deleteScanTask">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="deleteScanTaskResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="addScanTask">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="addScanTaskResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="QueryTaskInfo">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="QueryTaskInfoResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="SendBusiSerialNoAndBatchIDRelation">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="SendBusiSerialNoAndBatchIDRelationResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="queryTaskInfoByBatchId">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="queryTaskInfoByBatchIdResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getImageShowUrl">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getImageShowUrlResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getQRCodeInfo">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getQRCodeInfoResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="QueryPreScannedImageList">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="QueryPreScannedImageListResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="acceptDocumentTask">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="acceptDocumentTaskResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getSelectImages">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="getSelectImagesResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="singleLogin">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="singleLoginResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="singleLoginResponse">
+    <wsdl:part name="parameters" element="tns:singleLoginResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getQRCodeInfoRequest">
+    <wsdl:part name="parameters" element="tns:getQRCodeInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="QueryTaskInfoRequest">
+    <wsdl:part name="parameters" element="tns:QueryTaskInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSelectImagesResponse">
+    <wsdl:part name="parameters" element="tns:getSelectImagesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addScanTaskResponse">
+    <wsdl:part name="parameters" element="tns:addScanTaskResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SendBusiSerialNoAndBatchIDRelationRequest">
+    <wsdl:part name="parameters" element="tns:SendBusiSerialNoAndBatchIDRelation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getQRCodeInfoResponse">
+    <wsdl:part name="parameters" element="tns:getQRCodeInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="filingScanTaskResponse">
+    <wsdl:part name="parameters" element="tns:filingScanTaskResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllBillTypeRequest">
+    <wsdl:part name="parameters" element="tns:getAllBillType">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getImageShowUrlRequest">
+    <wsdl:part name="parameters" element="tns:getImageShowUrl">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="filingScanTaskRequest">
+    <wsdl:part name="parameters" element="tns:filingScanTask">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SendBusiSerialNoAndBatchIDRelationResponse">
+    <wsdl:part name="parameters" element="tns:SendBusiSerialNoAndBatchIDRelationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="QueryPreScannedImageListRequest">
+    <wsdl:part name="parameters" element="tns:QueryPreScannedImageList">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="acceptDocumentTaskRequest">
+    <wsdl:part name="parameters" element="tns:acceptDocumentTask">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="singleLoginRequest">
+    <wsdl:part name="parameters" element="tns:singleLogin">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addScanTaskRequest">
+    <wsdl:part name="parameters" element="tns:addScanTask">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getImageShowUrlResponse">
+    <wsdl:part name="parameters" element="tns:getImageShowUrlResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="queryTaskInfoByBatchIdResponse">
+    <wsdl:part name="parameters" element="tns:queryTaskInfoByBatchIdResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateScanTaskStateResponse">
+    <wsdl:part name="parameters" element="tns:updateScanTaskStateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="QueryTaskInfoResponse">
+    <wsdl:part name="parameters" element="tns:QueryTaskInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteScanTaskRequest">
+    <wsdl:part name="parameters" element="tns:deleteScanTask">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="queryTaskInfoByBatchIdRequest">
+    <wsdl:part name="parameters" element="tns:queryTaskInfoByBatchId">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="QueryPreScannedImageListResponse">
+    <wsdl:part name="parameters" element="tns:QueryPreScannedImageListResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSelectImagesRequest">
+    <wsdl:part name="parameters" element="tns:getSelectImages">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="acceptDocumentTaskResponse">
+    <wsdl:part name="parameters" element="tns:acceptDocumentTaskResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteScanTaskResponse">
+    <wsdl:part name="parameters" element="tns:deleteScanTaskResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateScanTaskStateRequest">
+    <wsdl:part name="parameters" element="tns:updateScanTaskState">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllBillTypeResponse">
+    <wsdl:part name="parameters" element="tns:getAllBillTypeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="DocumentsServicePortType">
+    <wsdl:operation name="filingScanTask">
+      <wsdl:input name="filingScanTaskRequest" message="tns:filingScanTaskRequest">
+    </wsdl:input>
+      <wsdl:output name="filingScanTaskResponse" message="tns:filingScanTaskResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllBillType">
+      <wsdl:input name="getAllBillTypeRequest" message="tns:getAllBillTypeRequest">
+    </wsdl:input>
+      <wsdl:output name="getAllBillTypeResponse" message="tns:getAllBillTypeResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateScanTaskState">
+      <wsdl:input name="updateScanTaskStateRequest" message="tns:updateScanTaskStateRequest">
+    </wsdl:input>
+      <wsdl:output name="updateScanTaskStateResponse" message="tns:updateScanTaskStateResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteScanTask">
+      <wsdl:input name="deleteScanTaskRequest" message="tns:deleteScanTaskRequest">
+    </wsdl:input>
+      <wsdl:output name="deleteScanTaskResponse" message="tns:deleteScanTaskResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addScanTask">
+      <wsdl:input name="addScanTaskRequest" message="tns:addScanTaskRequest">
+    </wsdl:input>
+      <wsdl:output name="addScanTaskResponse" message="tns:addScanTaskResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTaskInfo">
+      <wsdl:input name="QueryTaskInfoRequest" message="tns:QueryTaskInfoRequest">
+    </wsdl:input>
+      <wsdl:output name="QueryTaskInfoResponse" message="tns:QueryTaskInfoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendBusiSerialNoAndBatchIDRelation">
+      <wsdl:input name="SendBusiSerialNoAndBatchIDRelationRequest" message="tns:SendBusiSerialNoAndBatchIDRelationRequest">
+    </wsdl:input>
+      <wsdl:output name="SendBusiSerialNoAndBatchIDRelationResponse" message="tns:SendBusiSerialNoAndBatchIDRelationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryTaskInfoByBatchId">
+      <wsdl:input name="queryTaskInfoByBatchIdRequest" message="tns:queryTaskInfoByBatchIdRequest">
+    </wsdl:input>
+      <wsdl:output name="queryTaskInfoByBatchIdResponse" message="tns:queryTaskInfoByBatchIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getImageShowUrl">
+      <wsdl:input name="getImageShowUrlRequest" message="tns:getImageShowUrlRequest">
+    </wsdl:input>
+      <wsdl:output name="getImageShowUrlResponse" message="tns:getImageShowUrlResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQRCodeInfo">
+      <wsdl:input name="getQRCodeInfoRequest" message="tns:getQRCodeInfoRequest">
+    </wsdl:input>
+      <wsdl:output name="getQRCodeInfoResponse" message="tns:getQRCodeInfoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPreScannedImageList">
+      <wsdl:input name="QueryPreScannedImageListRequest" message="tns:QueryPreScannedImageListRequest">
+    </wsdl:input>
+      <wsdl:output name="QueryPreScannedImageListResponse" message="tns:QueryPreScannedImageListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acceptDocumentTask">
+      <wsdl:input name="acceptDocumentTaskRequest" message="tns:acceptDocumentTaskRequest">
+    </wsdl:input>
+      <wsdl:output name="acceptDocumentTaskResponse" message="tns:acceptDocumentTaskResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSelectImages">
+      <wsdl:input name="getSelectImagesRequest" message="tns:getSelectImagesRequest">
+    </wsdl:input>
+      <wsdl:output name="getSelectImagesResponse" message="tns:getSelectImagesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="singleLogin">
+      <wsdl:input name="singleLoginRequest" message="tns:singleLoginRequest">
+    </wsdl:input>
+      <wsdl:output name="singleLoginResponse" message="tns:singleLoginResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DocumentsServiceHttpBinding" type="tns:DocumentsServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="filingScanTask">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="filingScanTaskRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="filingScanTaskResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllBillType">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getAllBillTypeRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAllBillTypeResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateScanTaskState">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="updateScanTaskStateRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateScanTaskStateResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteScanTask">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="deleteScanTaskRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteScanTaskResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addScanTask">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="addScanTaskRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addScanTaskResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTaskInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="QueryTaskInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="QueryTaskInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendBusiSerialNoAndBatchIDRelation">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="SendBusiSerialNoAndBatchIDRelationRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SendBusiSerialNoAndBatchIDRelationResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryTaskInfoByBatchId">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="queryTaskInfoByBatchIdRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="queryTaskInfoByBatchIdResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getImageShowUrl">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getImageShowUrlRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getImageShowUrlResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQRCodeInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getQRCodeInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getQRCodeInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPreScannedImageList">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="QueryPreScannedImageListRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="QueryPreScannedImageListResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acceptDocumentTask">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="acceptDocumentTaskRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="acceptDocumentTaskResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSelectImages">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getSelectImagesRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSelectImagesResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="singleLogin">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="singleLoginRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="singleLoginResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DocumentsService">
+    <wsdl:port name="DocumentsServiceHttpPort" binding="tns:DocumentsServiceHttpBinding">
+      <wsdlsoap:address location="http://192.168.36.88:8199/TIMS-Server/services/DocumentsService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
